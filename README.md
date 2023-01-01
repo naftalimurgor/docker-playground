@@ -38,3 +38,12 @@ docker run -dp 3000:3000 naftalimurgor/app
 ```
 
 ## Stop container
+`docker ps`
+
+`docker stop <image-id>`
+
+## Delete image
+
+`docker images`: List images
+
+To delete: `docker rmi -f <image-name>`
